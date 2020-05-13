@@ -11,3 +11,7 @@ I plan on using data from the data news site FiveThirtyEight on polls. It is rou
 
 ### Application:
 Being able to reliably predict the percent error on a poll is arguably one of the single most important things for political campaigns. In knowing the error, polls can be determined as reliable or not, and percent error can be used to make key choices about the campaign moving forward.
+
+# Conclusions
+
+After exploring a variety of algorithms including standard Linear Regression, Lasso Regression, Ridge Regression, and XGBoost Regression, XGBoost ended up providing the best prediction of the error of US Federal election polling. XGBoost's gradient boosting method helps handle model complexity and has fast computation speed. It was able to correctly predict the error of the poll 82% of the time, and those correct predictions had an absolute error of 0.92%. For practical application, this model is a great first step in providing a roadmap for political decision making. Being able to predict the error of a poll can help candidates and the media know how to lead strategy and report on good polling, respectively.
